@@ -1,0 +1,17 @@
+{
+    "name": "taotaofly/composer_demo",
+    "description": "我的第一个组件",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jobs",
+            "email": "test@test.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "taotaofly\\composer_demo\\": "src/"
+        }
+    }
+}
